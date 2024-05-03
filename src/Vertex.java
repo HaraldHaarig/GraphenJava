@@ -15,6 +15,10 @@ public class Vertex {
         return num;
     }
 
+    public boolean getSearched(){
+        return searched;
+    }
+
     public ArrayList<Edge> getEdgelist() {
         return edgelist;
     }

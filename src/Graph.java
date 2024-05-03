@@ -6,6 +6,10 @@ public class Graph {
         vertexlist = new ArrayList<Vertex>();
     }
 
+    public void depthFirstSearch(Vertex v){
+        
+    }
+
     public void addVertex(Vertex vertex){
         vertexlist.add(vertex);
     }
